@@ -1,5 +1,19 @@
 # Projeto FastAPI com Autenticação
 
+## Sobre o Projeto
+
+Este é um projeto de exemplo de como utilizar FastAPI para criar uma API com autenticação. A aplicação utiliza o módulo `httpx` para realizar o login em um serviço e posteriormente acessar um endpoint protegido.
+
+## Integração Contínua (CI)
+
+Este projeto utiliza GitHub Actions para integração contínua. O workflow, localizado no diretório `.github/workflows/`, é acionado a cada `push` ou `pull request` para a branch `main` e executa as seguintes tarefas:
+- Instalação de dependências.
+- Análise estática de código (linting).
+- Build da imagem Docker para garantir a integridade da aplicação.
+
+1. **Clone o repositório**:
+   
+
 Este é um projeto de exemplo utilizando FastAPI para acessar dados protegidos por autenticação. A aplicação faz login em um serviço para obter um token de acesso e utiliza esse token para acessar um endpoint protegido.
 
 ## Estrutura do Projeto
