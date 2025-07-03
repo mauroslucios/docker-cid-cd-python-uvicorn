@@ -24,7 +24,7 @@ Este é um projeto de exemplo utilizando FastAPI para acessar dados protegidos p
 
 2. **Build da imagem Docker**:
    ```bash
-   docker-compose build
+   docker build -t mauroslucios/pythonuvicorn:v1 .
    ```
 
 3. **Execute o container**:
