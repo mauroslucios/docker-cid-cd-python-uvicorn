@@ -6,8 +6,8 @@ app = FastAPI()
 BASE_URL = "https://apidadosabertos.saude.gov.br/v1"
 
 # Substitua por suas credenciais reais
-USERNAME = "seu_usuario"
-PASSWORD = "sua_senha"
+USERNAME = ""
+PASSWORD = ""
 
 @app.post("/login")
 async def login():
